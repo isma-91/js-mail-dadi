@@ -21,10 +21,55 @@ h1 {
   border: 3px solid violet;
   border-radius: 20px;
   display: flex;
+  flex-wrap: wrap;
 }
 
-.usern {
+.usern,
+.computern {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.random-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.btn {
+  padding: 20px 30px;
+  margin-top: 10px;
+  border: 3px solid violet;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn.hidden {
+  display: none;
+}
+
+.win {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  color: greenyellow;
+}
+
+.lose {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+}
+
+.draw {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
 }
