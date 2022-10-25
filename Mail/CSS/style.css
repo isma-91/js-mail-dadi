@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: red;
+}
+
+header {
+  text-align: center;
+  font-size: 2rem;
+  margin: 3rem 0;
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 750px;
+  min-height: 600px;
+  background-color: black;
+  border: 4px solid green;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.user-mail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  color: green;
+  font-size: 2em;
+}
+
+#mail {
+  height: 3rem;
+  width: 500px;
+  font-size: 1.5rem;
+  color: green;
+  border: 5px solid green;
+  text-align: center;
+}
+
+#mail:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: auto;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.message {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 750px;
+  min-height: 200px;
+  background-color: black;
+  border: 4px solid green;
+  margin: 0 auto;
+  color: white;
+  display: none;
+}
+
+.message.show {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.message h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.deny {
+  display: none;
+  color: red;
+}
+
+.deny.show {
+  display: block;
+}
+
+.ok {
+  display: none;
+  color: green;
+}
+
+.ok.show {
+  display: block;
+}
