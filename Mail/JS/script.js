@@ -20,3 +20,24 @@ eleBtn.addEventListener("click", function () {
     eleDeny.classList.add("show");
   }
 });
+
+/*
+if (arrMails.includes(userMail)) {
+  eleMessage.classList.add("show");
+  eleOk.classList.add("show");
+} else {
+  eleMessage.classList.add("show");
+  eleDeny.classList.add("show");
+}
+*/
+/*
+for (let i = 0; i < arrMails.length; i++) {
+  if (userMail === arrMails[i]) {
+    eleMessage.classList.add("show");
+    eleOk.classList.add("show");
+  } else {
+    eleMessage.classList.add("show");
+    eleDeny.classList.add("show");
+  }
+}
+*/

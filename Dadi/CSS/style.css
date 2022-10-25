@@ -53,23 +53,19 @@ h1 {
   display: none;
 }
 
-.win {
+.base {
   width: 100%;
   font-size: 2rem;
   font-weight: bold;
+}
+.win {
   color: greenyellow;
 }
 
 .lose {
-  width: 100%;
-  font-size: 2rem;
-  font-weight: bold;
   color: red;
 }
 
 .draw {
-  width: 100%;
-  font-size: 2rem;
-  font-weight: bold;
   color: white;
 }
